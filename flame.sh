@@ -109,7 +109,7 @@ sleep 2
 checkfound
 }
 
-hound() {
+flame() {
 if [[ -e data.txt ]]; then
 cat data.txt >> targetreport.txt
 rm -rf data.txt
@@ -137,4 +137,4 @@ fi
 
 banner
 dependencies
-hound
+flame
