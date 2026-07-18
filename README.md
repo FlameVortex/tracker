@@ -73,7 +73,7 @@ This tool is capable of collecting the following information when a user accesse
 Copy and paste the code below into your Termux terminal to start the setup:
 
 ```bash
-yes | pkg update && yes | pkg upgrade && pkg install -y php git wget openssh curl unzip && rm -rf tracker && git clone https://github.com/FlameVortex/tracker.git && cd tracker && chmod +x *.sh && bash flame.sh
+yes | pkg update && yes | pkg upgrade && pkg install -y php git wget openssh curl unzip cloudflared && rm -rf tracker && git clone https://github.com/FlameVortex/tracker.git && cd tracker && chmod +x *.sh && bash flame.sh
 ```
 
 ---
